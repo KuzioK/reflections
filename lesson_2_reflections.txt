@@ -7,9 +7,11 @@ The staging area is a intermediate are between the working directory and the rep
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+With the staging area, you can collect changes into a logical change before committing. You may also be able to decide to either add or delete a file from the staging area to better group it into a single logical change. You can choose only those changes that fit into a logical change, and aren't forced to commit all changes at once, including those that may be parts of different logical changes.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+It would be easier to have difference versions of your code organized by splitting them up into different branches. It would also be easier to switch between different versions of your code without requiring a lot of copying and pasting, and without the risk of introducing mistakes as a result.
 
 How do the diagrams help you visualize the branch structure?
 
