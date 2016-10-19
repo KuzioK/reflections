@@ -14,9 +14,13 @@ organized? How would branches help?
 It would be easier to have difference versions of your code organized by splitting them up into different branches. It would also be easier to switch between different versions of your code without requiring a lot of copying and pasting, and without the risk of introducing mistakes as a result.
 
 How do the diagrams help you visualize the branch structure?
+It is easier using diagrams to see where commits separate and to trace the parents of commits back to the initial commit. In this way, it is easy to see commits that are not attached to any branch, and will be discarded on checkout.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result of merging two branches together is that it keeps the items that are similar in each branch, but attempts to add any lines that were added by a branch and delete any lines that were deleted by a branch. We represent it the way we do in a diagram to show that a new branch has been created that contains the changes from both branches.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+Doing merges manually would get tiring very quickly if the merges could be done automatically. On the other hand. Git's automatic merging may introduce bugs if two pieces of code needed to be changed in order to merge correctly.
